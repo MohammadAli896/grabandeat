@@ -1,6 +1,7 @@
 # grabandeat
 
-A new Flutter project.
+My final app project for mobile device programming class.
+Details: https://drive.google.com/file/d/19MwDpl_74hMvcyKNlP0JVg2J_PoBqitp/view?usp=sharing
 
 ## Getting Started
 
