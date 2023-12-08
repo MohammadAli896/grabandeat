@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-grabandeat-staging-222630-authRole",
+      "UnauthRoleArn": "arn:aws:iam::260307607848:role/amplify-grabandeat-staging-222630-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::260307607848:role/amplify-grabandeat-staging-222630-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-grabandeat-staging-222630-deployment",
+      "UnauthRoleName": "amplify-grabandeat-staging-222630-unauthRole",
+      "StackName": "amplify-grabandeat-staging-222630",
+      "StackId": "arn:aws:cloudformation:us-east-2:260307607848:stack/amplify-grabandeat-staging-222630/ab8550e0-954f-11ee-ab0b-02bb3acec8a3",
+      "AmplifyAppId": "dcsd3ugx4ib6h"
+    },
+    "categories": {
+      "api": {
+        "grabandeat": {}
+      },
+      "auth": {
+        "grabandeatf1792efa": {}
+      }
+    }
+  }
+}

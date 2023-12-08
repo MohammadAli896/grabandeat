@@ -1,0 +1,27 @@
+type Preference {
+  primaryColor: String
+  secondaryColor: String
+  bgColor: String
+  headingColor: String
+  textColor: String
+  subtitleColor: String
+}
+
+type Item {
+  name: String!
+  price: String!
+  imagePath: String!
+  shortDescription: String!
+  isRecommended: Boolean!
+}
+
+type Restaurant @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  address: String!
+  shortDescription: String!
+  mainImage: String!
+  menu: [Item]!
+  preferences: Preference
+}
+ 
